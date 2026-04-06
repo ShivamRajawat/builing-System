@@ -5,7 +5,7 @@ import Dashboard from './pages/Dashboard'
 import Customers from './pages/Customers'
 import Items from './pages/Items'
 import Invoices from './pages/Invoices'
-import AllInvoices from './pages/AllInvoices.JSX'
+import AllInvoices from './pages/AllInvoices'
 
 export default function App() {
   return (
