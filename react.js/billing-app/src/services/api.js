@@ -3,7 +3,7 @@ import axios from 'axios'
 // BUG FIX: was defaulting to port 3000 but server runs on 5000
 const baseURL =
   import.meta.env.VITE_API_BASE_URL ??
-  (import.meta.env.DEV ? '/api' : '')
+  (import.meta.env.DEV ? '/api' : 'https://builing-system-1.onrender.com')
 
 export const api = axios.create({
   baseURL,
