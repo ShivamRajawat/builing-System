@@ -1,0 +1,6 @@
+# Query: http://localhost:5000
+
+1 result - 1 file
+
+react.js\billing-app\src\services\api.js:
+  6:   (import.meta.env.DEV ? '/api' : 'https://builing-system-1.onrender.com')
