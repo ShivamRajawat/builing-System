@@ -26,6 +26,9 @@ app.use(express.json());
 app.get('/health', (req, res) => {
   res.json({ ok: true });
 });
+app.get('/', (req, res) => {
+  res.json({ message: 'Building System API is running 🚀', status: 'ok' });
+});
 
 app.use('/customers', customerRoutes);
 app.use('/items', itemRoutes);
