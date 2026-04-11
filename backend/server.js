@@ -72,6 +72,9 @@ async function start() {
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
   });
+  app.get('/dashboard/summary', async (req, res) => {
+  res.status(404).json({ error: 'Not found' }); // handled by api.js fallback already
+});
 }
 
 start();
