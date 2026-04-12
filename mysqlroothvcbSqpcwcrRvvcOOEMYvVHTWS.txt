@@ -1,11 +1,1 @@
-mysql://root:hvcbSqpcwcrRvvcOOEMYvVHTWSqmtISJ@junction.proxy.rlwy.net:33683/railway
 
-
-
-mysql -h junction.proxy.rlwy.net -u root -p hvcbSqpcwcrRvvcOOEMYvVHTWSqmtISJ --port 33683 --protocol=TCP railway
-
-
-
-
-railway connect MySQL
-hvcbSqpcwcrRvvcOOEMYvVHTWSqmtISJ =PASSWORD FOR DATABASE 
